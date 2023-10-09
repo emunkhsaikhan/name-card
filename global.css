@@ -38,6 +38,26 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.container .toggler {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 7px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background: var(--bg-color);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: #262fd8 0 0 3px 3px;
+    transition: .4s ease;
+}
+.container .toggler:hover {
+    background: aliceblue;
+    color: var(--dark);
+    box-shadow: gray 0 0 3px 3px;
 }
 .container .front {
     display: flex;
