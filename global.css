@@ -33,6 +33,7 @@ p {
     font-weight: 300;
 }
 .container {
+    margin-top: 5%;
     height: 100%;
     width: 100%;
     display: flex;
@@ -40,7 +41,7 @@ p {
     justify-content: center;
     position: relative;
 }
-.container .toggler {
+.toggler {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -54,7 +55,7 @@ p {
     box-shadow: #262fd8 0 0 3px 3px;
     transition: .4s ease;
 }
-.container .toggler:hover {
+.toggler:hover {
     background: aliceblue;
     color: var(--dark);
     box-shadow: gray 0 0 3px 3px;
